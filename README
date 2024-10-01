@@ -1,0 +1,14 @@
+Based On: https://github.com/trezor/python-trezor/blob/master/tools/pwd_reader.py
+
+Simple How To
+	- This python script decrypts a Trezor Password file
+	- You need to set up the correct file/folder path for the tool to read from. Its currently set to dropbox.
+	- You might need some trezor tools or plugins from the directory listed above.
+
+Simple Explanation why this tool is needed.
+	- This tool is needed by anyone that has used the Trezor Password Manager. Trezor discontinued its password manager which was used by a lot of people. This tool is currently needed by me and might be 
+		needed in the future for development, testing, or archival needs.
+
+Potential Replacements
+	- Pairng a simple password manager like pass (unix) with the trezor key encryption/decryption should be a good alternative. not too sure how it will work as far as steps taken or if it will be 
+		user friendly enough for the general public.
